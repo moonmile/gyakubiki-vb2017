@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "core513": {
+      "commandName": "Project",
+      "commandLineArgs": "Program.vb"
+    }
+  }
+}

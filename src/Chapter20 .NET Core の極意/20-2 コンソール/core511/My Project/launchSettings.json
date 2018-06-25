@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "core511": {
+      "commandName": "Project",
+      "commandLineArgs": "--hepp"
+    }
+  }
+}

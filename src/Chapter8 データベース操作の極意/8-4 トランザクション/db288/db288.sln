@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "db288", "db288\db288.vbproj", "{4CA53756-4EAB-4A94-9427-24B9753E66DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA53756-4EAB-4A94-9427-24B9753E66DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA53756-4EAB-4A94-9427-24B9753E66DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA53756-4EAB-4A94-9427-24B9753E66DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA53756-4EAB-4A94-9427-24B9753E66DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A724D860-5F08-427B-BA28-BC3E475480F4}
+	EndGlobalSection
+EndGlobal

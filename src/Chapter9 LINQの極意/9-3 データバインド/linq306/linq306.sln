@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "linq306", "linq306\linq306.vbproj", "{80CE8A5F-7D45-4AF8-9456-682C4BCFB080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CE8A5F-7D45-4AF8-9456-682C4BCFB080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CE8A5F-7D45-4AF8-9456-682C4BCFB080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CE8A5F-7D45-4AF8-9456-682C4BCFB080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CE8A5F-7D45-4AF8-9456-682C4BCFB080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F02EBE9-B102-4AEF-AB56-D82424F180B8}
+	EndGlobalSection
+EndGlobal

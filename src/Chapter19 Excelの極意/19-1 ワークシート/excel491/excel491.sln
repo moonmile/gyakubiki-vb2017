@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "excel491", "excel491\excel491.vbproj", "{F558D11E-C828-4CB0-981C-3D713072DAFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F558D11E-C828-4CB0-981C-3D713072DAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F558D11E-C828-4CB0-981C-3D713072DAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F558D11E-C828-4CB0-981C-3D713072DAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F558D11E-C828-4CB0-981C-3D713072DAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA14052-DEAA-4ECC-AE8C-E73E69754FE7}
+	EndGlobalSection
+EndGlobal

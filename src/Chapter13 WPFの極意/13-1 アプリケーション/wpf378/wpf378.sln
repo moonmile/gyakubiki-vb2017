@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "wpf378", "wpf378\wpf378.vbproj", "{4C1DD533-134D-4B86-AD59-1DDFFE6DFFEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C1DD533-134D-4B86-AD59-1DDFFE6DFFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1DD533-134D-4B86-AD59-1DDFFE6DFFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1DD533-134D-4B86-AD59-1DDFFE6DFFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1DD533-134D-4B86-AD59-1DDFFE6DFFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4BE588E-A3F1-4D63-AC53-D1BE9A69E6F2}
+	EndGlobalSection
+EndGlobal

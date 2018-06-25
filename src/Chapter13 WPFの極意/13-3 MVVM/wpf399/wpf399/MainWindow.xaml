@@ -1,0 +1,35 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf399"
+        mc:Ignorable="d"
+        FontSize="16"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Margin="4" Content="赤" 
+                Command="{Binding ClickRed}" />
+        <Button Margin="4" Content="青" Grid.Row="1"
+                Command="{Binding ClickBlue}" />
+        <Button Margin="4" Content="黄色" Grid.Row="2"
+                Command="{Binding ClickYellow}" />
+        <TextBlock Grid.Column="1" Margin="4" 
+                   Text="{Binding Text}"/>
+        <Rectangle Grid.Column="1" Grid.Row="1" 
+                   Grid.RowSpan="2"
+                   Margin="4"
+                   Fill="{Binding FillColor}" />
+    </Grid>
+</Window>
