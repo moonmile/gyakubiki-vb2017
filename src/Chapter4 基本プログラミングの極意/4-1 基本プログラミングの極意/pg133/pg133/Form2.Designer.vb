@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
@@ -22,29 +22,30 @@ Partial Class Form1
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'label2
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 21)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(260, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "コードにコメントを入力する"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.label2.AutoSize = True
+        Me.label2.Location = New System.Drawing.Point(21, 124)
+        Me.label2.Name = "label2"
+        Me.label2.Size = New System.Drawing.Size(242, 12)
+        Me.label2.TabIndex = 4
+        Me.label2.Text = "起動時にスタートアップフォームとして表示されます。"
         '
-        'Form1
+        'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 70)
-        Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.label2)
+        Me.Name = "Form2"
+        Me.Text = "Form2"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Private WithEvents label2 As Label
 End Class

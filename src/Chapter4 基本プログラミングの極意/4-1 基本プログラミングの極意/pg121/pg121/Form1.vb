@@ -1,10 +1,11 @@
 ﻿Public Class Form1
-    Private Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
-        Dim string1 As String = "ワイン"
-        Dim string2 As String = "チーズ"
-
-        label1.Text = "C:\VB2015\Sample.txt"
-        label2.Text = """C:\VB2015\Sample.txt"""
-        label3.Text = string1 & ControlChars.Lf & string2
+    Private Sub Button1_Click(sender As Object, e As EventArgs) _
+        Handles Button1.Click
+        '行頭に「'」を記述すると、行全体がコメントになります
+        Dim i = 100 * 2
+        '行の途中からもコメントにできます
+        '次の行は、行頭に「'」があるので実行されません
+        'i += 100
+        MessageBox.Show($"i = {i}", "確認")
     End Sub
 End Class

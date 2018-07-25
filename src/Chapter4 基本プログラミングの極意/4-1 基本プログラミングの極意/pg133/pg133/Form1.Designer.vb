@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'フォームがコンポーネントの一覧をクリーンアップするために dispose をオーバーライドします。
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,31 +20,32 @@ Partial Class Form1
     'メモ: 以下のプロシージャは Windows フォーム デザイナーで必要です。
     'Windows フォーム デザイナーを使用して変更できます。  
     'コード エディターを使って変更しないでください。
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'label1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 21)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(260, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "コードにコメントを入力する"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.label1.AutoSize = True
+        Me.label1.Location = New System.Drawing.Point(22, 124)
+        Me.label1.Name = "label1"
+        Me.label1.Size = New System.Drawing.Size(241, 12)
+        Me.label1.TabIndex = 4
+        Me.label1.Text = "Form2がスタートアップフォームに設定されています。"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 70)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Private WithEvents label1 As Label
 End Class

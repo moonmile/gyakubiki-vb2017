@@ -27,18 +27,18 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 21)
+        Me.Button1.Location = New System.Drawing.Point(12, 34)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(260, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "コードにコメントを入力する"
+        Me.Button1.TabIndex = 3
+        Me.Button1.Text = "平方根を求める"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 70)
+        Me.ClientSize = New System.Drawing.Size(284, 87)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -46,5 +46,5 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Private WithEvents Button1 As Button
 End Class

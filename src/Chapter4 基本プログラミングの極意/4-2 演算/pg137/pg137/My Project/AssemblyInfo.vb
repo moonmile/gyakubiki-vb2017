@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' アセンブリ属性の値を確認します
 
-<Assembly: AssemblyTitle("pg121")>
+<Assembly: AssemblyTitle("pg137")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("pg121")>
+<Assembly: AssemblyProduct("pg137")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'このプロジェクトが COM に公開される場合、次の GUID が typelib の ID になります
-<Assembly: Guid("f6849142-1d0e-4648-a3cf-28531e98ce3d")>
+<Assembly: Guid("9677c8bf-66a1-4d42-9ef3-e6dc0b5cfb33")>
 
 ' アセンブリのバージョン情報は次の 4 つの値で構成されています:
 '
