@@ -22,47 +22,47 @@ Partial Class Form1
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.button2 = New System.Windows.Forms.Button()
         Me.label1 = New System.Windows.Forms.Label()
-        Me.button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
-        '
-        'button2
-        '
-        Me.button2.Location = New System.Drawing.Point(12, 69)
-        Me.button2.Name = "button2"
-        Me.button2.Size = New System.Drawing.Size(260, 23)
-        Me.button2.TabIndex = 37
-        Me.button2.Text = "タスクをキャンセルする"
-        Me.button2.UseVisualStyleBackColor = True
         '
         'label1
         '
         Me.label1.AutoSize = True
         Me.label1.Font = New System.Drawing.Font("MS UI Gothic", 12.0!)
-        Me.label1.Location = New System.Drawing.Point(12, 116)
+        Me.label1.Location = New System.Drawing.Point(12, 94)
         Me.label1.Name = "label1"
         Me.label1.Size = New System.Drawing.Size(46, 16)
-        Me.label1.TabIndex = 36
+        Me.label1.TabIndex = 8
         Me.label1.Text = "label1"
         '
-        'button1
+        'Button2
         '
-        Me.button1.Location = New System.Drawing.Point(12, 26)
-        Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(260, 23)
-        Me.button1.TabIndex = 35
-        Me.button1.Text = "タスク開始"
-        Me.button1.UseVisualStyleBackColor = True
+        Me.Button2.Location = New System.Drawing.Point(12, 50)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(260, 23)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "メソッドでタスクを作成"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(12, 21)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(260, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "ラムダ式でタスクを作成"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 172)
-        Me.Controls.Add(Me.button2)
+        Me.ClientSize = New System.Drawing.Size(284, 133)
         Me.Controls.Add(Me.label1)
-        Me.Controls.Add(Me.button1)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -70,7 +70,7 @@ Partial Class Form1
 
     End Sub
 
-    Private WithEvents button2 As Button
     Private WithEvents label1 As Label
-    Private WithEvents button1 As Button
+    Private WithEvents Button2 As Button
+    Private WithEvents Button1 As Button
 End Class

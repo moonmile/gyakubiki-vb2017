@@ -1,30 +1,44 @@
-﻿Imports System.Threading
-
-Public Class Form1
-    Private cts = New CancellationTokenSource()
-    Private Async Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
-        Dim res = Await Task.Factory.StartNew(Of Boolean)(
-        Function()
-            For i As Integer = 1 To 10
-                If cts.Token.IsCancellationRequested Then
-                    Return False
-                End If
-                Me.Invoke(New Action(
-                            Sub()
-                                label1.Text = String.Format("{0}秒経過", i)
-                            End Sub))
-                System.Threading.Thread.Sleep(1000)
-            Next
-            Return True
-        End Function, cts.Token)
-        If res Then
-            label1.Text = "タスク正常終了"
-        Else
-            label1.Text = "タスクがキャンセルされました"
-        End If
+﻿Public Class Form1
+    Private _task As Task
+    ''' <summary>
+    ''' ラムダ式を使う場合
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    Private Sub Button1_Click(sender As Object, e As EventArgs) _
+        Handles Button1.Click
+        _task = New Task(
+            Sub()
+                For i As Integer = 0 To 59
+                    Me.Invoke(New Action(
+                        Sub()
+                            label1.Text =
+                            DateTime.Now.ToString("HH:MM:ss")
+                        End Sub))
+                    System.Threading.Thread.Sleep(1000)
+                Next
+            End Sub)
+        _task.Start()
     End Sub
-
-    Private Sub button2_Click(sender As Object, e As EventArgs) Handles button2.Click
-        cts.Cancel()
+    ''' <summary>
+    ''' メソッドを使う場合
+    ''' </summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    Private Sub Button2_Click(sender As Object, e As EventArgs) _
+        Handles Button2.Click
+        _task = New Task(AddressOf OnWork)
+        _task.Start()
+    End Sub
+    ' バックグラウンドプロセス
+    Private Sub OnWork()
+        For i As Integer = 0 To 59
+            Me.Invoke(New Action(
+                      Sub()
+                          label1.Text =
+                          DateTime.Now.ToString("HH:MM:ss")
+                      End Sub))
+            System.Threading.Thread.Sleep(1000)
+        Next
     End Sub
 End Class
